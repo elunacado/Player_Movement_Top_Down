@@ -25,10 +25,10 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.transform.tag=="danger")
-        {
-            gameObject.GetComponent<Animator>().SetBool("Loud", true);
-        }
+//         if (col.transform.tag=="danger")
+//         {
+//             gameObject.GetComponent<Animator>().SetBool("Loud", true);
+//         }
         
     }
 }
